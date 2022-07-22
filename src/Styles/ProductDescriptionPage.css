@@ -1,0 +1,32 @@
+.product_desc_page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product_image{
+    margin-top: 5%;
+}
+.product_image>img{
+    object-fit: contain;
+    width: 300px;
+    box-shadow: 0 0 5px gray;
+    padding: 15px;
+    border-radius: 1rem;
+}
+.small_image{
+    display: flex;
+    justify-content: space-evenly;
+}
+.small_image>img{
+    width: 50px;
+    box-shadow: 0 0 5px rgb(230, 227, 227);
+    margin-top: 20px;
+    padding: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+
+}
+.small_image>img:hover{
+    box-shadow: 0 0 5px gray;
+}

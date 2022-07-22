@@ -1,0 +1,23 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(19, 238, 19,0.5);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 10px;
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+}
+
+
+.right-nav{
+    display: flex;
+}
+.cart{
+    margin-left: 15px;
+    cursor: pointer;
+}
